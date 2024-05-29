@@ -5,10 +5,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
+    color: #080b1a;
 }
 
 html, body {
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+
+strong {
+    text-decoration: underline;
+    text-decoration-color: #080b1a;
+}
+
+#p_card {
+    font-size: 1.3rem;
+}
+
+#btn_card {
+    background-color: #080b1a;
+    color: white;
+    width: 20rem;
+}
+
+#btn_card:hover {
+    background-color: #1e2955;
+    text-decoration: none;
 }
